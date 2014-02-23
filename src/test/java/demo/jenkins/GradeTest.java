@@ -11,5 +11,11 @@ public class GradeTest {
 		Grade grade = new Grade();
 		assertEquals("F", grade.convert(0));
 	}
+	
+	@Test
+	public void scrore50ShouldGetGradeD() {
+		Grade grade = new Grade();
+		assertEquals("D", grade.convert(50));
+	}
 
 }
