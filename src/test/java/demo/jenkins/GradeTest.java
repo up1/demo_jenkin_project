@@ -10,7 +10,7 @@ public class GradeTest {
 	
 	@Test
 	public void scrore0ShouldGetGradeF() {
-		assertEquals("FFFFFFF", grade.convert(0));
+		assertEquals("F", grade.convert(0));
 	}
 	
 	@Test
